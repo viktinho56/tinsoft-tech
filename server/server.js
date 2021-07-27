@@ -124,7 +124,8 @@ server.unifiedServer = function(req,res){
   };
 server.init = function(){
     // Start the HTTP server
-    server.httpServer.listen(config.httpPort,function(){
+   // process.env.PORT || 5000
+    server.httpServer.listen(process.env.PORT || config.httpPort,function(){
         console.log('\x1b[36m%s\x1b[0m','The HTTP server is running on port '+config.httpPort);
       });
   };
