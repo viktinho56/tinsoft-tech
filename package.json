@@ -1,0 +1,6 @@
+{
+  "name": "tinsoft-tech",
+  "version": "1.0.0",
+  "description": "A fullstack boilerplate with Mongo, ExpressJS, VueJS and NodeJS.",
+  "main": "app.js"
+}
